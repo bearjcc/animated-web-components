@@ -17,7 +17,7 @@
   </head>
   <body>
     <section>
-      <floating-random-element animation-speed="0.25" animation-enabled="true">
+      <floating-random-element animation-duration="0.25" animation-enabled="true">
         <div style="position: relative">
           <div
             style="position: absolute; top: 0; left: 0; bottom: 0; right: 0"
@@ -27,7 +27,7 @@
       </floating-random-element>
     </section>
     <section>
-      <typing-element animation-speed="0.1" animation-enabled="true">
+      <typing-element animation-duration="0.1" animation-enabled="true">
         <div>
           <h1>Hello!</h1>
           <strong>People</strong>
@@ -43,7 +43,17 @@
       <bouncing-ball
         color="green"
         radius="20"
-        animation-speed="0.1"
+        animation-duration="0.1"
+        animation-enabled="true"
+      >
+        <div></div>
+      </bouncing-ball>
+    </section>
+    <section>
+      <bouncing-ball
+        color="green"
+        radius="20"
+        animation-duration="0.5"
         animation-enabled="true"
       >
         <div></div>
@@ -52,7 +62,7 @@
     <div style="margin-top: 20px">
       <progress-bar-element
         progress="80%"
-        animation-speed="0.25"
+        animation-duration="0.25"
         animation-enabled="true"
         variant="candystriped"
       ></progress-bar-element>
@@ -60,7 +70,7 @@
     <div style="margin-top: 20px">
       <progress-bar-element
         progress="80%"
-        animation-speed="0.25"
+        animation-duration="0.25"
         animation-enabled="true"
         variant="shiny"
       ></progress-bar-element>

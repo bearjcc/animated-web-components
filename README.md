@@ -53,7 +53,7 @@ If you prerfer, you can use [Unpkg.com](https://unpkg.com)
 Use this tag to create a bouncing ball that will bounce forever.
 ```html
 <section>
-    <bouncing-ball color="green" radius="20" animation-speed="0.1" animation-enabled="true">
+    <bouncing-ball color="green" radius="20" animation-duration="0.1" animation-enabled="true">
         <div>
             
         </div>
@@ -65,7 +65,7 @@ Use this tag to create a bouncing ball that will bounce forever.
 Use this tag to make its content float around its parent. Can be set to duplicate on click
 ```html
 <section>
-    <floating-random-thing animation-range="20" animation-speed="100" duplicates="true" auto="true">
+    <floating-random-thing animation-range="20" animation-duration="100" duplicates="true" auto="true">
         <p>Hello</p>
     </floating-random-thing>
 </section>
@@ -76,7 +76,7 @@ Use this tag to make its content float around its parent. Can be set to duplicat
 Use this tag to make a text content appear as if it were being typed.
 ```html
 <section>
-    <typing-element animation-speed="0.1" animation-enabled="true">
+    <typing-element animation-duration="0.1" animation-enabled="true">
         <p>Hello World!</p>
     </typing-element>
 </section>
@@ -87,7 +87,7 @@ Use this tag to make a text content appear as if it were being typed.
 Rich HTML can also be used to display complex content:
 ```html
 <section>
-    <typing-element animation-speed="0.1" animation-enabled="true">
+    <typing-element animation-duration="0.1" animation-enabled="true">
         <div>
             <h1>Web Technologies</h1>
             <ul>
